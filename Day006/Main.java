@@ -10,7 +10,7 @@ public class Main {
         //pemanggilan tipe data bilangan desimal 
          
         //pemanggilan tipe data float dengan 32 bit
-        float tb = 162.2f;
+        float tb = 162.270f;
         
         //pemanggilan tipe data double dengan 64 bit
         double bb = 45.68;

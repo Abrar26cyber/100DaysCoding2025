@@ -12,8 +12,8 @@ public class Main {
         double bb = 45.056; // %.2f bilangan desimal (boleh digunankan 3f juga)
 
         System.out.printf("nama %s umur %d berat badan %.2f", nama, umur, bb);
-        System.out.print("nama saya " + nama);
-        System.out.println("umur " + umur);
+        System.out.print(" nama saya " + nama);
+        System.out.println(" umur " + umur);
 
     }
 }
