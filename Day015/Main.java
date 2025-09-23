@@ -19,11 +19,14 @@ public class Main {
         if(operator == '+'){
             hasil = angkaPertama + angkaKedua;
         }else if (operator == '-'){
-            hasil = angkaPertama + angkaKedua;
+            hasil = angkaPertama - angkaKedua;
         }else{
             System.out.println("Error");
         }
         System.out.printf("Jawabannya adalah %d\n:",hasil);
+        
+        
+        
     }
     
 }
