@@ -18,7 +18,10 @@ public class Main {
         double hasilBagi;
         double modulus = 0;
         
-        if(operator == '/' && modulus != 0){
+        if(operator == '/' ){
+            hasilBagi = angkaA / angkaB;
+            modulus  = angkaA % angkaB;
+        }if(modulus  != 0){
             hasilBagi = angkaA / angkaB;
             modulus  = angkaA % angkaB;
             System.out.println("Hasil bagi \t\t : " + hasilBagi);
