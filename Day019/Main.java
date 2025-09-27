@@ -20,7 +20,7 @@ public class Main {
         System.out.println("nilai dari variabel denggan tipe data double \t\t : " + angka1);
         System.out.println("konversi ke tipe data integer \t\t\t\t : " + konversi1);
         System.out.println();
-        System.out.println("nilai dari variabel denggan tipe data float \t : " + angka2);
+        System.out.println("nilai dari variabel denggan tipe data float \t\t : " + angka2);
         System.out.println("konversi ke tipe data byte \t\t\t\t : " + konversi2);
        
     }  
