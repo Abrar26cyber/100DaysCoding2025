@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Luas persegi panjang \t = pannjang * lebar ");
         System.out.println("maka, luas\t\t = " + panjang + " cm " + " * " + lebar + " cm ");
         
-        System.out.println("jadi luas sebuah persegi panjang adalah : " + luas + " cm");
+        System.out.printf("jadi luas sebuah persegi panjang adalah : %.2f cm \n",luas );
     }
     
 }
