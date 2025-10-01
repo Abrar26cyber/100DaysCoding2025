@@ -32,7 +32,7 @@ public class Main {
         System.out.print("Masukkan status \t\t : ");
         String sta = ar.nextLine();
         
-        System.out.print("Masukkan anak ke berapa\t : ");
+        System.out.print("Masukkan anak ke berapa \t : ");
         String kk = ar.nextLine();
         
         System.out.print("Masukkan status hubungan\t : ");
