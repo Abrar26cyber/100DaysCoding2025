@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner masuk = new Scanner (System.in);
         
-        System.out.println("\n===== menghitung luas persegi =====\n");
+        System.out.println("\n===== menghitung luas lingkaran =====\n");
         
         System.out.print("Masukkan jari jari lingkaran : ");
         double r = masuk.nextDouble(); // r = jari-jari
