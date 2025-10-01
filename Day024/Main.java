@@ -11,8 +11,8 @@ public class Main {
         System.out.print("Masukkan jari jari lingkaran : ");
         double r = masuk.nextDouble(); // r = jari-jari
         
-        System.out.println("\n==== Rumus menghitung luas lingkarang===\n\nLuas lingakran \t\t\t = 3,14 * r * r");
-        System.out.println("maka luas lingakaran \t\t = Math.PI * jari-jari * jari-jari");
+        System.out.println("\n==== Rumus menghitung luas lingkarang===\n\nLuas lingakran \t\t\t = 3,14 * jari-jari * jari-jari");
+        System.out.println( "Rumus lingakaran \t\t = 3,14 * r * r");
         
         double luas = Math.PI * r * r;
         
