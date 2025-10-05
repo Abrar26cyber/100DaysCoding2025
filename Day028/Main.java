@@ -15,10 +15,10 @@ public class Main {
         boolean abc = ab == ac;
         System.out.println("Apakah nilai dari 2 variabel sama:");
         
-        if (ab == ac) {
+        if (ab != ac) {
             System.out.println("Nilai 1:" +ab+ " dan Nilai 2:" +ac+ "\nMaka hasilnnya adalah: " + abc);
-        }else if (ab != ac){
-            System.out.println("Nilai 1:" +ab+ " dan Nilai 2:" +ac+ "\nMaka hasilnnya adalah: " + abc);
+        }else{
+            System.out.println("Nilai 1:" +ab+ " dan Nilai 2:" +ac+ "\nMaaka hasilnya adalah: " + abc);
         }
     }
 }
