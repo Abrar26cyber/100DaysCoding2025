@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
          Scanner masuk = new Scanner (System.in);
          
-         System.out.print("Masukkan angka");
+         System.out.print("Masukkan angka : ");
          int ab = masuk.nextInt();
          
          boolean if_1 = ab > 0 && ab < 9; 
