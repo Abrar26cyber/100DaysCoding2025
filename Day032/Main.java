@@ -1,15 +1,19 @@
 package Day032;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        boolean tiket = true;
-        boolean viv = false;
+        Scanner in = new Scanner(System.in);
+        
+        System.out.print("Apakah kamu memiliki tiket : ");
+        boolean tiket = in.nextBoolean();
+        System.out.print("Apakah kamu memiliki kaartu VIV : ");
+        boolean viv = in.nextBoolean();
 
         boolean izin = tiket || viv;
 
-        System.out.printf("Apakah kamu memiliki tiket?  %B%n", tiket);
-        System.out.printf("Apakah kamu memiliki kartu VIV?  %B%n", viv);
         System.out.println("Kamu memenuhi salah satu syarat untuk masuk: " + izin);
     }
 }
