@@ -7,12 +7,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
-        System.out.print("Masukkan angka : ");
-        int ad = in.nextInt();
-        System.out.print("Masukkan angka : ");
-        int ac = in.nextInt();
+        System.out.print("Apakah kamu memiliki sim : ");
+        boolean ad = in.nextBoolean();
+        boolean ac = !ad;
         
-        System.out.printf("Apakah %d sama dengan %d : %b \n",ad,ac , (ad == ac));
-        System.out.printf("Apakah %d tidak sama dengan %d : %b \n",ad,ac , (ad != ac));
+        System.out.println("Apakah kamu layak memiliki sim ? : " +ac );
+        System.out.println("Status mengemudi" + (ac ? " Tidak boleh mengemudi" : " Boleh mengemudi"));
     }
 }
