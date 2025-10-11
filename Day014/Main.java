@@ -29,8 +29,6 @@ public class Main {
         System.out.println("Hasil konversi String ke long \t\t :" + data5);
         System.out.println("Hasil konversi String ke byte \t\t :" + data6);
         System.out.println("Character \t\t\t\t :" + data7);
-        
-        
     }
     
 }
