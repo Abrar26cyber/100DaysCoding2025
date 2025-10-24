@@ -7,9 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
-        System.out.println("======= MENENTUKAN HARI KERJA =========\n");
+        System.out.println("======== MENENTUKAN HARI KERJA =========\n");
         System.out.print("Masukkan angka 1 -7: ");
-        
         int angka = in.nextInt();
         
         switch (angka){
@@ -34,6 +33,8 @@ public class Main {
             case 7:
                 System.out.println("\n" +angka+ " adalah Hari ahad");
                 break;
+            default:
+                System.out.println("Angka tidak terdapat dalam inputan yang diminta");
         }
         switch (angka){
             case 1:
@@ -47,6 +48,9 @@ public class Main {
             case 7:
                 System.out.println("Dan merupakan akhir pekan");
                 break;
+            default:
+                System.out.println("Hari tidak terdaftar");
         }
+        in.close();
     }
 }
