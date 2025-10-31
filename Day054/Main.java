@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("Masukkan batas: ");
         int b = in.nextInt();
-        System.out.println("-----------------------------");
+        System.out.println("----------------------------");
         int a = 0;
 
         while ((a + 1) <= b) {
