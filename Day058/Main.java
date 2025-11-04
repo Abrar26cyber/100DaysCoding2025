@@ -18,6 +18,6 @@ public class Main {
         for (int i = n; i >= 1; i--) {
             System.out.print(i + " ");
         }
-        System.out.println();
+        in.nextLine();
     }
 }
