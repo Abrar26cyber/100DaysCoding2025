@@ -16,7 +16,7 @@ public class Main {
             h += i + " * ";
             y *= i;
         }
-        System.out.print(f+ "! Adel Cantik= " +h);
+        System.out.print(f+ "! = " +h);
         System.out.println("\b\b= " +y);
     }
 
