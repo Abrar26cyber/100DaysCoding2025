@@ -10,8 +10,8 @@ public class Main {
         System.out.print("Masukkan nama: ");
         String kata = in.nextLine();
         
-        for (int i = 1; i <= kata.length(); i++) {
-            System.out.print(kata.charAt(2)+ " ");
+        for (int i = 0; i < kata.length(); i++) {
+            System.out.print(kata.charAt(2)+ "  ");
         }
         System.out.println();
     }
