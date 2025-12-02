@@ -9,7 +9,7 @@ public class Main {
         
         int [] nilai = new int [5];
         
-        System.out.print("Masukkan nilai: ");
+        System.out.print("Masukkan 5 nilai: ");
         for (int i = 0; i < 5; i++) {
             nilai [i] = in.nextInt();
         }
