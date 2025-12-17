@@ -2,7 +2,7 @@ package Day100_Evaluasi;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_1 {
 
     static int[] array;
 
